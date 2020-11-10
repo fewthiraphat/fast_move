@@ -15,8 +15,10 @@ public class ToyData {
 
     public static Person[] getPerson() {
         Person[] person = new Person[3];
-        // your code
-
+        person[0] = new Person("Jack" , "Black");
+        person[1] = new Person("Mark" , "Trump");
+        person[2] = new Person("Max" , "Smith");
+        return person;
         return person;
     }
 
